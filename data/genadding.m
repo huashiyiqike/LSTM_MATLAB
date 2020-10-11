@@ -1,3 +1,4 @@
+disp('hey')
 function [data,mask,test,masktest]= genadding(problem)
 global   mzeros convert
 data=mzeros(problem.numsamples, 4 , ceil(problem.T*1.1));
